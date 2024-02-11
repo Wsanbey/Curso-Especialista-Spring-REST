@@ -1,4 +1,4 @@
-package modelo;
+package com.topfoodworks.topfoodapi.modelo;
 
 public class Cliente {
 

@@ -1,13 +1,14 @@
-package notificacao;
+package com.topfoodworks.topfoodapi.notificacao;
 
-import modelo.Cliente;
+import com.topfoodworks.topfoodapi.modelo.Cliente;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class NotificadorEmail implements Notificador {
 
 	@Override
 	public void notificar(Cliente cliente, String mensagem) {
+
 		System.out.printf("Notificando %s atraves do e-mail %s: %s\n",
 				cliente.getNome(), cliente.getEmail() , mensagem);
 	}

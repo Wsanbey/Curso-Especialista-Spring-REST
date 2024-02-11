@@ -1,25 +1,25 @@
-package service;
+package com.topfoodworks.topfoodapi.service;
 
-import modelo.Cliente;
-import notificacao.Notificador;
+import com.topfoodworks.topfoodapi.modelo.Cliente;
+import com.topfoodworks.topfoodapi.notificacao.Notificador;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
 public class AtivacaoClienteService {
 
+	@Autowired (required = false)
 	private Notificador notificador;
-
-	@Autowired
-	public AtivacaoClienteService(Notificador notificador){
-
-		this.notificador = notificador;
-	}
 
 	public void ativar(Cliente cliente) {
 		cliente.ativar();
 
-		this.notificador.notificar(cliente, "Seu cadastro no sistema esta ATIVO");
+		if(notificador !=null){
+			this.notificador.notificar(cliente, "Seu cadastro no sistema esta ATIVO ");
+		}else {
+			System.out.printf("Não existe notificador, mas cliente esta ATIVADO");
+		}
+
 	}
-	
+
 }
