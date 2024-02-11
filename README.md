@@ -29,11 +29,11 @@ Tópicos Concluídos
     - ✅ 2.13. Usando @Configuration e @Bean para definir beans
     - ✅ 2.14. Conhecendo os pontos de injeção e a anotação @Autowired
     - ✅ 2.15. Dependência opcional com @Autowired
+    - ✅ 2.16. Ambiguidade de beans e injeção de lista de beans
     
     ## Tópicos Não Concluídos
     
    
-    - ❌ 2.16. Ambiguidade de beans e injeção de lista de beans
     - ❌ 2.17. Desambiguação de beans com @Primary
     - ❌ 2.18. Desambiguação de beans com @Qualifier
     - ❌ 2.19. Desambiguação de beans com anotação customizada
