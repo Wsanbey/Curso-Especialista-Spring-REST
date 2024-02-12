@@ -6,15 +6,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-/* 2.15. Dependência opcional com @Autowired
-   Retire o comentário da classe:  NotificadorEmail
-   Que o sistema volta ao normal mas ja esta em
-   Opcional
-* */
-
 @Controller
 public class MeuPrimeiroController {
-
     private AtivacaoClienteService ativacaoClienteService;
 
     public MeuPrimeiroController( AtivacaoClienteService ativacaoClienteService) {
@@ -22,8 +15,6 @@ public class MeuPrimeiroController {
         System.out.println("MEU PRIMEIRO CONTROLLER " + this.ativacaoClienteService);
 
     }
-
-
     @GetMapping("/hello")
     @ResponseBody
     public String hello(){
@@ -33,9 +24,6 @@ public class MeuPrimeiroController {
 
         ativacaoClienteService.ativar(joao);
         ativacaoClienteService.ativar(maria);
-
-
-
 
         return  joao.getNome() ;
     }
