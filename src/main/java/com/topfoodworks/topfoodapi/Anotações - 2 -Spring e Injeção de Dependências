@@ -44,10 +44,17 @@
       axemplo um perfil de teste mais ele aplicasse a classe então nao é apenas colocar ele e todo
       sistema ja fica pronto ele é para as classes que tiverem ele.
 
+     - ✅ 2.21. Criando métodos de callback do ciclo de vida dos beans
+     @Nota
+     Ele ensinou a que os bens tem um tempo de vida então e
+     pra iniciar usamos: @PostConstruct
+     e pra finalizar usamos: @PreDestroy
+     Ele disse que nao usamos sempre mais precisando ultilizaresse é o passo
+
 
     ## Tópicos Não Concluídos
 
-    - ❌ 2.21. Criando métodos de callback do ciclo de vida dos beans
+
     - ❌ 2.22. Publicando e consumindo eventos customizados
     - ❌ 2.23. Configurando projetos Spring Boot com o application.properties
     - ❌ 2.24. Substituindo propriedades via linha de comando e variáveis de ambiente

@@ -34,15 +34,10 @@ Tópicos Concluídos
     - ✅ 2.18. Desambiguação de beans com @Qualifier
     - ✅ 2.19. Desambiguação de beans com anotação customizada
     - ✅ 2.20. Mudando o comportamento da aplicação com Spring Profiles
-    
+    - ✅ 2.21. Criando métodos de callback do ciclo de vida dos beans
+
     ## Tópicos Não Concluídos
     
-   
-    - ❌ 2.17. Desambiguação de beans com @Primary
-    - ❌ 2.18. Desambiguação de beans com @Qualifier
-    - ❌ 2.19. Desambiguação de beans com anotação customizada
-    - ❌ 2.20. Mudando o comportamento da aplicação com Spring Profiles
-    - ❌ 2.21. Criando métodos de callback do ciclo de vida dos beans
     - ❌ 2.22. Publicando e consumindo eventos customizados
     - ❌ 2.23. Configurando projetos Spring Boot com o application.properties
     - ❌ 2.24. Substituindo propriedades via linha de comando e variáveis de ambiente
