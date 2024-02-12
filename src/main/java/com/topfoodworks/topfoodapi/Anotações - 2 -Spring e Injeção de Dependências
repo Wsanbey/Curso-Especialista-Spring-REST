@@ -41,7 +41,7 @@
      @Nota
       Aula maravilhosa aprendi a usar o profile e definir perfis para Desenvolvimento como
       Produção e posso criar um perfil com mais de um campo para nao mexe na produção nem no desenvolvimento
-      axemplo um perfil de teste mais ele aplicasse a classe então nao é apenas colocar ele e todo
+      axemplo um perfil de teste mais ele aplicasse a classe então nao é apenas colocar ele e no
       sistema ja fica pronto ele é para as classes que tiverem ele.
 
      - ✅ 2.21. Criando métodos de callback do ciclo de vida dos beans
