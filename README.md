@@ -43,8 +43,6 @@ Tópicos Concluídos
     
     ## Tópicos Não Concluídos
     
-    - ❌ 2.25. Criando e acessando propriedades customizadas com @Value
-    - ❌ 2.26. Acessando propriedades com @ConfigurationProperties
     - ❌ 2.27. Alterando a configuração do projeto dependendo do ambiente (com Spring Profiles)
     - ❌ 2.28. Ativando o Spring Profile por linha de comando e variável de ambiente
     
