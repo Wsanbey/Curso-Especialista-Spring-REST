@@ -107,10 +107,29 @@
          @Value("${notificador.email.porta-servidor}")
          private Integer porta;
 
+    - ✅ 2.26. Acessando propriedades com @ConfigurationProperties
+    @Nota
+    Estamos configurando variaveis de instacia nessa aula estamos criando uma classe
+        que serve justamente para nao colocar essas variaveis diretamente no aplication-properties
+        Pega a visão fazendo dessa maneira se mexermos no codigo na hora da refatoração alteramos
+        logo tudo de uma vez veja como fazer esse processo:
+
+        Primeiro se cria uma classe Aqui foi a NotificacaoProperties()
+        Usamos as anotações: @Components e @ConfigurationProperties("notificador.email") passando o pré-fixo
+        "notificador.email",  agora as variaveis sem injeção de nada ta legal!
+        depois das um bloco de notas pra descrever o que essas variaveis fazem
+        e por fim gets e sets podemos definir os valores logo nele como default ta ligado EX. = "VALOR"
+
+        por ultimo chamamos (INSTACIAMOS) onde queremos usar essas variaveis personalizadas
+        atravez da classe e la é preciso colocar a anotação @Autowired na chamada da variavel
+        EX.:
+        @Autowired
+            private NotificacaoProperties notificacaoProperties;
+
 
     ## Tópicos Não Concluídos
 
-    - ❌ 2.26. Acessando propriedades com @ConfigurationProperties
+
     - ❌ 2.27. Alterando a configuração do projeto dependendo do ambiente (com Spring Profiles)
     - ❌ 2.28. Ativando o Spring Profile por linha de comando e variável de ambiente
 

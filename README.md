@@ -39,7 +39,9 @@ Tópicos Concluídos
     - ✅ 2.23. Configurando projetos Spring Boot com o application.properties
     - ✅ 2.24. Substituindo propriedades via linha de comando e variáveis de ambiente
     - ✅ 2.25. Criando e acessando propriedades customizadas com @Value   
-     ## Tópicos Não Concluídos
+    - ✅ 2.26. Acessando propriedades com @ConfigurationProperties
+    
+    ## Tópicos Não Concluídos
     
     - ❌ 2.25. Criando e acessando propriedades customizadas com @Value
     - ❌ 2.26. Acessando propriedades com @ConfigurationProperties
