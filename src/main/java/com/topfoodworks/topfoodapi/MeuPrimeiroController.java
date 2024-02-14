@@ -20,10 +20,8 @@ public class MeuPrimeiroController {
     public String hello(){
 
         Cliente joao =  new Cliente("João", "joao.contato@gmail.com","8155557777");
-        Cliente maria = new Cliente("Maria","maria@gmail.com.br", "8744458884");
 
         ativacaoClienteService.ativar(joao);
-        ativacaoClienteService.ativar(maria);
 
         return  joao.getNome() ;
     }

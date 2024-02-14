@@ -51,12 +51,32 @@
      e pra finalizar usamos: @PreDestroy
      Ele disse que nao usamos sempre mais precisando ultilizaresse é o passo
 
+     - ✅ 2.22. Publicando e consumindo eventos customizados
+     @Nota
+     Definimos uma chasse para notificar e outra para enviar a nota fiscal
+     Usamos uma função do spring chamada "ApplicationEventPublisher" pra realizar seu uso
+     faz assim: nome da variavel desse tipo e EXEMPLO: nome.publishEvent(Objeto)
+     isso vai deixa o sistema atento a esssa parada e pra pegar usa o
+
+     @EventListener
+         public void emitirNotaFiscalService(ClienteAtivadoEvent event){
+             System.out.println("Emitindo nota fiscal para cliente " + event.getCliente().getNome());
+
+         }
+    - ✅ 2.23. Configurando projetos Spring Boot com o application.properties
+    @Nota
+    Informou um link para auxiliar na configuração de chaves dentro do application.properties eu
+    até mudei a porta do servidor kkk  server.port=8081 EXPLICAÇÃO: (server.port = chave / 8081 = valor )
+    Link:
+    https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties
+    .html#application-properties.server.server.port
+
+
 
     ## Tópicos Não Concluídos
 
 
-    - ❌ 2.22. Publicando e consumindo eventos customizados
-    - ❌ 2.23. Configurando projetos Spring Boot com o application.properties
+
     - ❌ 2.24. Substituindo propriedades via linha de comando e variáveis de ambiente
     - ❌ 2.25. Criando e acessando propriedades customizadas com @Value
     - ❌ 2.26. Acessando propriedades com @ConfigurationProperties
