@@ -127,10 +127,17 @@
             private NotificacaoProperties notificacaoProperties;
 
 
+    - ✅ 2.27. Alterando a configuração do projeto dependendo do ambiente (com Spring Profiles)
+    @Nota
+    Eu não fiz nenhuma alteração porque eu nao quiz mexer no projeto
+    porem eu consegui entender que podemos duplicar o aplication-properties e personaliza-lo
+    para nosso ambiente e nao precisamos ficar mudando os valores das variaveis a cada alteração
+    PADRÃO DE NOMEAÇÃO:   aplication-nomeaqui.properties
+    ele disse que nao devemos colocar nesses arquivos dados sensivel e sim colocar em variaveis de ambientes
+    que ele ja encinou e vai complementar na proxima aula.
+
     ## Tópicos Não Concluídos
 
-
-    - ❌ 2.27. Alterando a configuração do projeto dependendo do ambiente (com Spring Profiles)
     - ❌ 2.28. Ativando o Spring Profile por linha de comando e variável de ambiente
 
     A lista acima representa o status de conclusão dos tópicos. Marque cada tópico conforme for progredindo no aprendizado do Spring Framework.

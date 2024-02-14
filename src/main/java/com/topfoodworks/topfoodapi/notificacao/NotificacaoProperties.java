@@ -10,7 +10,7 @@ public class NotificacaoProperties {
     /**
      * Host do servidor do e-mail
      */
-    private String hostServidor = "smtp.topfoodworks.com.br";
+    private String hostServidor;
 
     /**
      * Porta do servidor do e-mail
