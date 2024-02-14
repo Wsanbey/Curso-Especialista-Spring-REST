@@ -64,20 +64,31 @@
 
          }
     - ✅ 2.23. Configurando projetos Spring Boot com o application.properties
-    @Nota
-    Informou um link para auxiliar na configuração de chaves dentro do application.properties eu
-    até mudei a porta do servidor kkk  server.port=8081 EXPLICAÇÃO: (server.port = chave / 8081 = valor )
-    Link:
-    https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties
-    .html#application-properties.server.server.port
+     @Nota
+     Informou um link para auxiliar na configuração de chaves dentro do application.properties eu
+         até mudei a porta do servidor kkk  server.port=8081 EXPLICAÇÃO: (server.port = chave / 8081 = valor )
+         Link:
+         https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties
+         .html#application-properties.server.server.port
+
+
+    - ✅ 2.24. Substituindo propriedades via linha de comando e variáveis de ambiente
+     @Nota
+     Definindo variavel de ambiente antes na inicialização do programa .jar
+         java -jar target/nome_do_sistema.jar -- server.port=8082
+         AGORA É SÓ INIVIALIZAR
+
+         Definindo e testando variavel de ambiente ultilizando na linha de comando :
+         Windows: set SERVER_PORT=8082
+         PARA CHECAR: ECHO %SERVER_PORT%
+
+         Mac:$ export SERVER_PORT=8082
+         PARA CHECAR: echo   $ SERVER_PORT
 
 
 
     ## Tópicos Não Concluídos
 
-
-
-    - ❌ 2.24. Substituindo propriedades via linha de comando e variáveis de ambiente
     - ❌ 2.25. Criando e acessando propriedades customizadas com @Value
     - ❌ 2.26. Acessando propriedades com @ConfigurationProperties
     - ❌ 2.27. Alterando a configuração do projeto dependendo do ambiente (com Spring Profiles)

@@ -37,12 +37,10 @@ Tópicos Concluídos
     - ✅ 2.21. Criando métodos de callback do ciclo de vida dos beans
     - ✅ 2.22. Publicando e consumindo eventos customizados
     - ✅ 2.23. Configurando projetos Spring Boot com o application.properties
-
-    ## Tópicos Não Concluídos
+    - ✅ 2.24. Substituindo propriedades via linha de comando e variáveis de ambiente
+   
+     ## Tópicos Não Concluídos
     
-    - ❌ 2.22. Publicando e consumindo eventos customizados
-    - ❌ 2.23. Configurando projetos Spring Boot com o application.properties
-    - ❌ 2.24. Substituindo propriedades via linha de comando e variáveis de ambiente
     - ❌ 2.25. Criando e acessando propriedades customizadas com @Value
     - ❌ 2.26. Acessando propriedades com @ConfigurationProperties
     - ❌ 2.27. Alterando a configuração do projeto dependendo do ambiente (com Spring Profiles)
