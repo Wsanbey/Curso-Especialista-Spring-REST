@@ -22,6 +22,19 @@ Tópicos Concluídos
         localhost{nao precisa colocar porta se estiver no default}
         ?createDatabaseIfNotExist=true : cria o banco de dados se nao existir
 
+    - ✅ 3.4. Mapeando entidades com JPA
+    @Nota
+        Fizemos o mapeamento ele explicou sobre a criação das tabelas e colunas são no automatico.
+        Criamos os Gets e Sets tambem o equals e HashCode kkkk foi muito massa vou ficar exercitando
+        isso porque foi muito mas facil que eu imaginava kkkk.
+
+        ele comentou sobre os pacotes mais eu e que:
+        domain = dominio da aplicação
+        model = pode ser chamado de entites tanto faz apenas que ele era acostumado com esse
+        tipo de modelo mais pode fazer como bem quisesse
+
+
+
 Tópicos não Concluídos
 
     - ❌ 3.4. Mapeando entidades com JPA

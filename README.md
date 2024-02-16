@@ -48,10 +48,19 @@ Tópicos Concluídos
 Tópicos Concluídos
 
     - ✅ 3.1. Instalando o MySQL Server e MySQL Workbench
-    - ✅ 3.10. Buscando um objeto pelo id no banco de dados
+    - ✅ 3.2. O que é JPA e Hibernate
+    - ✅ 3.3. Adicionando JPA e configurando o Data Source
+    - ✅ 3.4. Mapeando entidades com JPA
+
 
 Tópicos não Concluídos
 
+    - ❌ 3.5. Criando as tabelas do banco a partir das entidades
+    - ❌ 3.6. Mapeando o id da entidade para autoincremento
+    - ❌ 3.7. Importando dados de teste com import
+    - ❌ 3.8. Consultando objetos do banco de dados
+    - ❌ 3.9. Adicionando um objeto no banco de dados
+    - ❌ 3.10. Buscando um objeto pelo id no banco de dados  
     - ❌ 3.11. Atualizando um objeto no banco de dados
     - ❌ 3.12. Excluindo um objeto do banco de dados
     - ❌ 3.13. Conhecendo o padrão Aggregate do DDD
@@ -62,15 +71,8 @@ Tópicos não Concluídos
     - ❌ 3.18. A anotação @JoinColumn(1)
     - ❌ 3.18. A anotação @JoinColumn
     - ❌ 3.19. Propriedade nullable de @Column e @JoinColumn
-    - ❌ 3.2. O que é JPA e Hibernate
     - ❌ 3.20. Desafio mapeando entidades
-    - ❌ 3.3. Adicionando JPA e configurando o Data Source
-    - ❌ 3.4. Mapeando entidades com JPA
-    - ❌ 3.5. Criando as tabelas do banco a partir das entidades
-    - ❌ 3.6. Mapeando o id da entidade para autoincremento
-    - ❌ 3.7. Importando dados de teste com import
-    - ❌ 3.8. Consultando objetos do banco de dados
-    - ❌ 3.9. Adicionando um objeto no banco de dados
+
 
 
     
