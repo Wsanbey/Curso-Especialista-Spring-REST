@@ -1,0 +1,45 @@
+Tópicos Concluídos
+
+    - ✅ 3.1. Instalando o MySQL Server e MySQL Workbench
+     @Nota:
+        Poxa maravilha de aula não anotei nada na hora mais foi massa
+
+    - ✅ 3.2. O que é JPA e Hibernate
+     @Nota:
+       ele falou sobre hubernate e tambem sobre as como é feia a conecção da
+       classe e do banco de dados
+
+    - ✅ 3.3. Adicionando JPA e configurando o Data Source
+     @Nota:
+        Estou ultilizando o tempo das anotações pra exercitar
+        vou criar um banco de dados usando o JPA E O MYSQL.
+        Entendi como funciona a atribuição da url na documentação do mysql
+        e aqui o código:
+        spring.datasource.url=jdbc:mysql://localhost/nomedodb?createDatabaseIfNotExist=true
+        spring.datasource.username=nome
+        spring.datasource.password=senha
+
+        localhost{nao precisa colocar porta se estiver no default}
+        ?createDatabaseIfNotExist=true : cria o banco de dados se nao existir
+
+Tópicos não Concluídos
+
+    - ❌ 3.4. Mapeando entidades com JPA
+    - ❌ 3.5. Criando as tabelas do banco a partir das entidades
+    - ❌ 3.6. Mapeando o id da entidade para autoincremento
+    - ❌ 3.7. Importando dados de teste com import
+    - ❌ 3.8. Consultando objetos do banco de dados
+    - ❌ 3.9. Adicionando um objeto no banco de dados
+    - ❌ 3.10. Buscando um objeto pelo id no banco de dados
+    - ❌ 3.11. Atualizando um objeto no banco de dados
+    - ❌ 3.12. Excluindo um objeto do banco de dados
+    - ❌ 3.13. Conhecendo o padrão Aggregate do DDD
+    - ❌ 3.14. Conhecendo e implementando o padrão Repository
+    - ❌ 3.15. Conhecendo e usando o Lombok
+    - ❌ 3.16. Desafio Lombok e repositório de restaurantes
+    - ❌ 3.17. Mapeando relacionamento com @ManyToOne
+    - ❌ 3.18. A anotação @JoinColumn(1)
+    - ❌ 3.18. A anotação @JoinColumn
+    - ❌ 3.19. Propriedade nullable de @Column e @JoinColumn
+    - ❌ 3.20. Desafio mapeando entidades
+
