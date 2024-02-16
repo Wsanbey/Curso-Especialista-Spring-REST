@@ -54,11 +54,23 @@ Tópicos Concluídos
         Código:
             @GeneratedValue(strategy = GenerationType.IDENTITY)
 
+    - ✅ 3.7. Importando dados de teste com import
+    @Nota
+        Facil de mais eu recebi um alerta mas nao atrapalhou em nada
+        Dentro da pasta resouce cruiamos um arquivo por rigor tem que
+        ser chamado de "import.sql" agora podemos popular nosso
+        banco de dados de forma automatica com os dados salvos la EXE.:
+
+            insert into cozinha (nome) values ('Tailandesa')
+            insert into cozinha (nome) values ('Indiana')
+
+            coloquei 15 exemplos de cada para melhorar ficar mais bonitinho
+
 
 
 Tópicos não Concluídos
 
-    - ❌ 3.7. Importando dados de teste com import
+
     - ❌ 3.8. Consultando objetos do banco de dados
     - ❌ 3.9. Adicionando um objeto no banco de dados
     - ❌ 3.10. Buscando um objeto pelo id no banco de dados

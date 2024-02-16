@@ -53,11 +53,11 @@ Tópicos Concluídos
     - ✅ 3.4. Mapeando entidades com JPA
     - ✅ 3.5. Criando as tabelas do banco a partir das entidades
     - ✅ 3.6. Mapeando o id da entidade para autoincremento
-
+    - ✅ 3.7. Importando dados de teste com import
 
 Tópicos não Concluídos
 
-    - ❌ 3.7. Importando dados de teste com import
+
     - ❌ 3.8. Consultando objetos do banco de dados
     - ❌ 3.9. Adicionando um objeto no banco de dados
     - ❌ 3.10. Buscando um objeto pelo id no banco de dados  
