@@ -51,11 +51,10 @@ Tópicos Concluídos
     - ✅ 3.2. O que é JPA e Hibernate
     - ✅ 3.3. Adicionando JPA e configurando o Data Source
     - ✅ 3.4. Mapeando entidades com JPA
-
+    - ✅ 3.5. Criando as tabelas do banco a partir das entidades
 
 Tópicos não Concluídos
 
-    - ❌ 3.5. Criando as tabelas do banco a partir das entidades
     - ❌ 3.6. Mapeando o id da entidade para autoincremento
     - ❌ 3.7. Importando dados de teste com import
     - ❌ 3.8. Consultando objetos do banco de dados

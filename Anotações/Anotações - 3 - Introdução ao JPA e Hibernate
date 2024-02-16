@@ -33,12 +33,22 @@ Tópicos Concluídos
         model = pode ser chamado de entites tanto faz apenas que ele era acostumado com esse
         tipo de modelo mais pode fazer como bem quisesse
 
+    - ✅ 3.5. Criando as tabelas do banco a partir das entidades
+    @Nota
+        Fizemos a automatização para crirar as tabelas no banco de dados
+        ATENÇÃO: Não é o recomendado!
 
+        Código: spring.jpa.generate-ddl=true
+                (Crias as tabelas automaticamente se não existir)
+
+                spring.jpa.hibernate.ddl-auto=creat
+                (Destroi e Reconstroi "PARA TESTE MASSA EM PRODUÇÃO NÃO USE" )
+
+        por ultimo ele almentou o limite de caracteries
+        da coluna usando o "length = 30"
 
 Tópicos não Concluídos
 
-    - ❌ 3.4. Mapeando entidades com JPA
-    - ❌ 3.5. Criando as tabelas do banco a partir das entidades
     - ❌ 3.6. Mapeando o id da entidade para autoincremento
     - ❌ 3.7. Importando dados de teste com import
     - ❌ 3.8. Consultando objetos do banco de dados
