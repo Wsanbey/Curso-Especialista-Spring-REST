@@ -47,9 +47,17 @@ Tópicos Concluídos
         por ultimo ele almentou o limite de caracteries
         da coluna usando o "length = 30"
 
+    - ✅ 3.6. Mapeando o id da entidade para autoincremento
+    @Nota
+        Ele encinou como automatizar a criação das Primary Key
+        no banco de dados pela propria classa
+        Código:
+            @GeneratedValue(strategy = GenerationType.IDENTITY)
+
+
+
 Tópicos não Concluídos
 
-    - ❌ 3.6. Mapeando o id da entidade para autoincremento
     - ❌ 3.7. Importando dados de teste com import
     - ❌ 3.8. Consultando objetos do banco de dados
     - ❌ 3.9. Adicionando um objeto no banco de dados
