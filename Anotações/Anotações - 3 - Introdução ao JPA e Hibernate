@@ -66,7 +66,28 @@ Tópicos Concluídos
 
             coloquei 15 exemplos de cada para melhorar ficar mais bonitinho
 
+    - ✅ 3.8. Consultando objetos do banco de dados
+    @Nota
+        Alguns problemas apareceram mas o proprio sistema solucionol
+        achei a aula complicada porque els quiz criar um novo mais para
+        exibir o funcionamento do sistema ao inserir e retirar objetos
+        do sistema aqui a linha que foi corrigida e deu certo:
 
+            public class ConsultaCozinhaMain {
+                public static void main(String[] args) {
+                    ConfigurableApplicationContext applicationContext =  new SpringApplicationBuilder(TopfoodApiApplication.class)
+                            .web(WebApplicationType.NONE)
+                            .run(args);
+
+                    CadastrarCozinha cadastrarCozinha = applicationContext.getBean(CadastrarCozinha.class);
+
+                    List<Cozinha> cozinhas = cadastrarCozinha.listar();
+
+                    for(Cozinha cozinha: cozinhas){
+                        System.out.println(cozinha.getNome());
+                    }
+                }
+            }
 
 Tópicos não Concluídos
 
